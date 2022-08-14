@@ -9,7 +9,7 @@ Created on Sun Aug 14 13:25:43 2022
 from tensorflow import keras
 from tensorflow.keras import regularizers
 
-
+#### Builds a neural net with specified number of layers and neurons for binary classification
 
 def build_net(layer_size, l, act_func, out_act, loss_metric, perf_metrics):
     model = keras.Sequential()
